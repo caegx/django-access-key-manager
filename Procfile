@@ -1,1 +1,1 @@
-web: gunicorn users.wsgi
+web: gunicorn accesskeydjango.wsgi --log-file -
