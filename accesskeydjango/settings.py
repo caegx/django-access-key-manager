@@ -69,10 +69,10 @@ WSGI_APPLICATION = 'accesskeydjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('NAME'),
-        'USER': os.getenv('USER'),
-        'PASSWORD': os.getenv('PASSWORD'),
-        'HOST': os.getenv('HOST'),
+        'NAME': 'd96gt4gd7s7v0o',
+        'USER': 'ucjfb96lok6jhl',
+        'PASSWORD': 'p9ca65dfe6089101189114067984b412535859f228e5d6ecb0e0982a8fd453c07',
+        'HOST': 'cf9gid2f6uallg.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -121,13 +121,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'microfocusdjango.CustomUser'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = os.getenv('EMAIL_HOST')
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+EMAIL_HOST_USER = 'accesskeymanager@gmail.com'
+EMAIL_HOST_PASSWORD = 'hplepabcgzzgwxix'
 
 LOGIN_URL = 'login'
 
-PAYSTACK_SK = os.getenv('PAYSTACK_SK')
-PAYSTACK_PK = os.getenv('PAYSTACK_PK')
+PAYSTACK_SK = 'sk_test_a202f07b22446b77f591926e8f6d2aa056f861d1'
+PAYSTACK_PK = 'pk_test_0363b2d6133ba81e0a9bc768afa6b55f018b05c3'
