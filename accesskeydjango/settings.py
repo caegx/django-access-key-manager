@@ -1,8 +1,5 @@
 from pathlib import Path
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -69,10 +66,10 @@ WSGI_APPLICATION = 'accesskeydjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd96gt4gd7s7v0o',
-        'USER': 'ucjfb96lok6jhl',
-        'PASSWORD': 'p9ca65dfe6089101189114067984b412535859f228e5d6ecb0e0982a8fd453c07',
-        'HOST': 'cf9gid2f6uallg.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'NAME': 'd4j7ub5f242rsg',
+        'USER': 'u5cpj87hv8k11c',
+        'PASSWORD': 'p798163f2aa63cce3652d7630b974cc28caf8c28f7493f914f80346e6b9c46ae6',
+        'HOST': 'cb5ajfjosdpmil.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
